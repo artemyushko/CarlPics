@@ -1,0 +1,24 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0B5091;
+}
+
+.side {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: yellow;
+    margin-inline: 5vh;
+    font-style: normal;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
