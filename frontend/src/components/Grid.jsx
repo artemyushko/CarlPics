@@ -10,9 +10,9 @@ const Grid = ({ sets }) => {
         {sets.map((set) => (
           <div className="set-container" key={set.id}>
             <Set
-              image={set.image}
-              name={set.name}
-              type={set.type}
+              title={set.title}
+              years={set.years}
+              pictures={set.pictures}
               link={set.link}
             />
           </div>
