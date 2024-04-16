@@ -4,7 +4,7 @@ import '../css/set.css';
 const Set = (props) => {
     return (
         <div className="poster">
-            <img src={props.pictures.student5.picture}
+            <img src={props.pictures[0].picture}
                 className='card-img-top'
                 alt="Set Image"
                 width='350'

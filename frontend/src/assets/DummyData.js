@@ -43,35 +43,35 @@ let set1 = {
     id: 0,
     title: "Competitive Yodeling Team",
     years: "1972 - 1974",
-    pictures: { student1, student2, student3, student4, student5 }
+    pictures: [ student1, student2, student3, student4, student5 ]
 };
 
 let set2 = {
     id: 1,
     title: "Ultimate Yo-Yo Team",
     years: "1985 - 1989",
-    pictures: { student2, student3, student4, student5 }
+    pictures: [ student2, student3, student4, student5 ]
 };
 
 let set3 = {
     id: 2,
     title: "National Lego Team",
     years: "1960 - 1962",
-    pictures: { student3, student4, student5 }
+    pictures: [ student3, student4, student5 ]
 };
 
 let set4 = {
     id: 3,
     title: "Coal Mining Team",
     years: "1930 - 1934",
-    pictures: { student4, student5 }
+    pictures: [ student4, student5 ]
 };
 
 let set5 = {
     id: 4,
     title: "John Deere Tractor",
     years: "1972 - 1974",
-    pictures: { student5 }
+    pictures: [ student5 ]
 };
 
 let DummyData = [ set1, set2, set3, set4, set5 ];

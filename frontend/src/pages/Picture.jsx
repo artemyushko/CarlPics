@@ -1,19 +1,18 @@
 import React from 'react';
 import Header from '../components/Header';
-import Grid from '../components/Grid';
-import { DummyData } from '../assets/DummyData';
+import Image from '../components/Image';
 import '../css/root.css';
 
-function SetPage() {
+function Picture() {
 
   return (
     <>
       <Header />
       <div>
-        <Grid sets={DummyData} />
+        <Image />
       </div>
     </>
   );
 }
 
-export default SetPage;
+export default Picture;
