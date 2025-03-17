@@ -7,7 +7,7 @@ import img5 from './students5.jpg';
 let student1 = {
     picture: img1,
     classification: "Photograph",
-    dates: "date1/date2",
+    dates: "date1/date2/date3",
     people: "person1, person2, person3"
 };
 
