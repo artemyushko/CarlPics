@@ -4,6 +4,9 @@ import img3 from './students3.jpg';
 import img4 from './students4.jpg';
 import img5 from './students5.jpg';
 
+// stuff we need: title, date, identifier (arbitrary text), image itself, known names
+// examples: archive.carleton.edu/Detail/collections/69401
+
 let student1 = {
     picture: img1,
     classification: "Photograph",
