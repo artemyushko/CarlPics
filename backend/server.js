@@ -27,9 +27,9 @@ connection.connect(function(err) {
 });
 
 function convertTsvs(req, res) {
+  connection.query('SET GLOBAL local_infile = 1;', function (error, results, fields) {})
   connection.query('CREATE TABLE images (' +
-                    'd INT NOT NULL PRIMARY KEY,' +
-                    'id INT NOT NULL,' +
+                    'id INT NOT NULL PRIMARY KEY,' +
                     'title VARCHAR(100),' +
                     'dates VARCHAR(20),' +
                     'people_depicted VARCHAR(500)' +
@@ -45,6 +45,7 @@ function convertTsvs(req, res) {
                   'LINES TERMINATED BY \'\n\' IGNORE 1 LINES ' + 
                   '(id, title, dates, people_depicted);',
                    function (error, results, fields) {
+                    console.log("error", error);
                     // error will be an Error if one occurred during the query
                     // results will contain the results of the query
                     // fields will contain information about the returned results fields (if any)
